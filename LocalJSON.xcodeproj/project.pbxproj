@@ -12,6 +12,7 @@
 		B4F889841D4C700A00D75DCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4F889831D4C700A00D75DCD /* Assets.xcassets */; };
 		B4F889871D4C700A00D75DCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4F889851D4C700A00D75DCD /* LaunchScreen.storyboard */; };
 		B4F889951D51346B00D75DCD /* thrones.json in Resources */ = {isa = PBXBuildFile; fileRef = B4F889941D51346B00D75DCD /* thrones.json */; };
+		FA58032D1D79D11400C7BB1C /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58032C1D79D11400C7BB1C /* Character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B4F889861D4C700A00D75DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4F889881D4C700A00D75DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4F889941D51346B00D75DCD /* thrones.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = thrones.json; sourceTree = "<group>"; };
+		FA58032C1D79D11400C7BB1C /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Character.swift; path = ../../../../../../Downloads/Character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				B4F889851D4C700A00D75DCD /* LaunchScreen.storyboard */,
 				B4F889881D4C700A00D75DCD /* Info.plist */,
 				B4F889941D51346B00D75DCD /* thrones.json */,
+				FA58032C1D79D11400C7BB1C /* Character.swift */,
 			);
 			path = LocalJSON;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4F8897D1D4C700A00D75DCD /* AppDelegate.swift in Sources */,
+				FA58032D1D79D11400C7BB1C /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +292,7 @@
 				B4F8898D1D4C700A00D75DCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
